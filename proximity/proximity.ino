@@ -121,3 +121,4 @@ void sendSigFox() {
   sfxAntenna.begin();
   sfxAntenna.sfxSendData(msg, strlen((char*)msg));
 }
+
